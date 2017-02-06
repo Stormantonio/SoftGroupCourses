@@ -7,7 +7,7 @@ import java.util.concurrent.CountDownLatch;
  */
 public class Shop {
     private static final CountDownLatch START = new CountDownLatch(4);
-    private static final int wayLength = 10000;
+    private static final int wayLength = 500000;
 
     public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i < 3; i++) {
